@@ -9,8 +9,8 @@ output:
     toc_depth: 3  
 author:
   - name: 김민지
-    url: https://evenofday.github.io/
-    affiliation: 명지대 기록정보과학전문대학원
+    url: https://evenofday.github.io/nlp_ta
+    affiliation: 명지대학교 기록정보과학전문대학원
     affiliation_url: -   
 date: "`r Sys.Date()`" 
 ---
@@ -34,9 +34,6 @@ knitr::include_graphics("img/what-is-text-analysis.png")
 
 (이미지 넣으면 이미지 바뀌어서 사이트 만들어짐)
 
-# 민원 상담콜 분석
-
-상담콜 중에서 민원으로 전이되는 사례가 있습니다. 이 건들의 텍스트 데이터를 이해하고 **민원을 예측하는 이진분류 모형**을 만들어봅니다.
 
 <br>
 
