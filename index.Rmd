@@ -1,7 +1,8 @@
 ---
 title: "텍스트 데이터 분석"
-description: (내가 생각하는 텍스트 분석, 기대하는 텍스트 분석 정리)
-  표현 그대로 **"텍스트"**를 분석해 눈으로 볼 수 있게 표현하는 것. 
+description:
+  표현 그대로 다양한 **"텍스트"**를 분석해 눈으로 볼 수 있게 나타는 것.
+  시각화하고 싶은 텍스트를 분석하는 것을 기대하고 있습니다.
 site: distill::distill_website
 output:
   distill::distill_article:
@@ -9,9 +10,9 @@ output:
     toc_depth: 3  
 author:
   - name: 김민지
-    url: https://evenofday.github.io/nlp_ta
+    url: https://evenofday.github.io/
     affiliation: 명지대학교 기록정보과학전문대학원
-    affiliation_url: -   
+    affiliation_url:  
 date: "`r Sys.Date()`" 
 ---
 
@@ -22,22 +23,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 내가 기대하는 텍스트 분석
 
-음성 인식(Speech Recognition)이란 사람이 말하는 음성 언어를 컴퓨터가 해석해 그 내용을 문자 데이터로 전환하는 처리를 말합니다. **STT(Speech-to-Text)**라고도 합니다. 
-
-상담센터의 상담 내용을 텍스트화한 STT 데이터를 **자연어 처리(NLP, Natural Language Processing)하여 함축되어 있는 고객의 의도를 이해**합니다.
-
-<br>
-
-```{r network, echo=FALSE, out.width = "55%", fig.align='center'}
-knitr::include_graphics("img/what-is-text-analysis.png")
-```
-
-(이미지 넣으면 이미지 바뀌어서 사이트 만들어짐)
+텍스트 분석에 대해 자세히 알지는 않지만, 말 그대로 텍스트를 분석할 수 있는 것을 기대합니다.
+제가 직접 텍스트 분석을 시도하는 게 기대됩니다.
 
 
 <br>
 
-```{r gis, echo=FALSE, out.width = "70%", fig.align='center'}
-knitr::include_graphics("img/complaint.png")
+```{r network, echo=FALSE, fig.align='center', out.width="55%"}
+knitr::include_graphics("KakaoTalk_20220928_212301249.jpg")
 ```
 
