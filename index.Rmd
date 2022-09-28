@@ -1,17 +1,17 @@
 ---
 title: "텍스트 데이터 분석"
-description: |
-  상담센터의 통화 텍스트로 상담 콜을 이해하고, 민원을 유발하는 통화를 예측해 봅니다.
+description: (내가 생각하는 텍스트 분석, 기대하는 텍스트 분석 정리)
+  표현 그대로 **"텍스트"**를 분석해 눈으로 볼 수 있게 표현하는 것. 
 site: distill::distill_website
 output:
   distill::distill_article:
     toc: true
     toc_depth: 3  
 author:
-  - name: 유충현 
-    url: https://choonghyunryu.github.io/
-    affiliation: 한국 R 사용자회
-    affiliation_url: https://r2bit.com/   
+  - name: 김민지
+    url: https://evenofday.github.io/
+    affiliation: 명지대 기록정보과학전문대학원
+    affiliation_url: -   
 date: "`r Sys.Date()`" 
 ---
 
@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# STT 텍스트 분석
+# 내가 기대하는 텍스트 분석
 
 음성 인식(Speech Recognition)이란 사람이 말하는 음성 언어를 컴퓨터가 해석해 그 내용을 문자 데이터로 전환하는 처리를 말합니다. **STT(Speech-to-Text)**라고도 합니다. 
 
@@ -32,6 +32,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("img/what-is-text-analysis.png")
 ```
 
+(이미지 넣으면 이미지 바뀌어서 사이트 만들어짐)
 
 # 민원 상담콜 분석
 
