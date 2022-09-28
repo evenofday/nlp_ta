@@ -57,16 +57,16 @@
     {
       "path": "index.html",
       "title": "텍스트 데이터 분석",
-      "description": "상담센터의 통화 텍스트로 상담 콜을 이해하고, 민원을 유발하는 통화를 예측해 봅니다.\n",
+      "description": "표현 그대로 **\"텍스트\"**를 분석해 눈으로 볼 수 있게 나타내는 것. 상담센터의 통화 텍스트로 상담 콜을 이해하고, 민원을 유발하는 통화를 예측해 봅니다.",
       "author": [
         {
-          "name": "유충현",
-          "url": "https://choonghyunryu.github.io/"
+          "name": "김민지",
+          "url": "https:/evenofday.github.io/"
         }
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\nContents\nSTT 텍스트 분석\n민원 상담콜 분석\n\nSTT 텍스트 분석\n음성 인식(Speech Recognition)이란 사람이 말하는 음성 언어를 컴퓨터가 해석해 그 내용을 문자 데이터로 전환하는 처리를 말합니다. STT(Speech-to-Text)라고도 합니다.\n상담센터의 상담 내용을 텍스트화한 STT 데이터를 자연어 처리(NLP, Natural Language Processing)하여 함축되어 있는 고객의 의도를 이해합니다.\n\n\n\n\n민원 상담콜 분석\n상담콜 중에서 민원으로 전이되는 사례가 있습니다. 이 건들의 텍스트 데이터를 이해하고 민원을 예측하는 이진분류 모형을 만들어봅니다.\n\n\n\n\n\n\n\n",
-      "last_modified": "2022-09-24T04:59:03+00:00"
+      "last_modified": "2022-09-28T12:46:38+00:00"
     }
   ],
   "collections": []

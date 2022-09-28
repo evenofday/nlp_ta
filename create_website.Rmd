@@ -6,7 +6,7 @@ author:
   - name: 김민지
     url: https://evenofday.github.io/
     affiliation: 명지대학교 기록정보과학전문대학원
-    affiliation_url:
+    affiliation_url: http://www.mju.ac.kr/record/index.do
   - name: 홍길동 
     affiliation: 한국 R 사용자회
     affiliation_url: https://r2bit.com/
